@@ -1,0 +1,39 @@
+UCI_HAR_Dataset 文件目录结构：
+/
+-test/
+         -Inertial Signals/ : 传感器信号检测数据
+                                  -body_acc_x_test.txt：略
+                                   -body_acc_y_test.txt：略
+                                   -body_acc_z_test.txt：略
+                                   -body_gyro_x_test.txt：略
+                                   -body_gyro_y_test.txt：略
+                                   -body_gyro_z_test.txt：略
+                                   -totlal_acc_x_test.txt：略
+                                   -total_acc_y_test.txt：略
+                                   -total_acc_z_test.txt：略
+         -subject_test.txt
+         -X_test.txt：测试集特征数据
+         -y_test.txt： 测试集标签数据
+
+-trian/
+         -Inertial Signals/：传感器信号检测数据
+                                  -body_acc_x_train.txt：略
+                                   -body_acc_y_train.txt：略
+                                   -body_acc_z_train.txt：略
+                                   -body_gyro_x_train.txt：略
+                                   -body_gyro_y_train.txt：略
+                                   -body_gyro_z_train.txt：略
+                                   -totlal_acc_x_train.txt：略
+                                   -total_acc_y_train.txt：略
+                                   -total_acc_z_train.txt：略
+         -subject_test.txt
+         -X_train.txt：训练集特征数据
+         -y_train.txt： 训练集标签数据
+activity_label.txt：label编号对应姿势说明
+features.txt：index索引号对应特征说明
+feature_info.txt ： 特征介绍
+new.py：略
+README.txt：略
+
+
+
